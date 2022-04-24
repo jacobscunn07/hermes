@@ -26,8 +26,8 @@ jobs:
 
       - name: save helm chart to local registry
         run: |
-          helm package ${{ github.workspace }}/charts/hermes/ ${{ env.HELM_REPOSITORY }}:${{ github.sha }}
+          helm package ${{ github.workspace }}/charts/hermes/
 
       - name: publish chart to ghcr
         run: |
-          helm chart push ${{ env.HELM_REPOSITORY }}:${{ github.sha }}
+          helm push ${{ github.workspace }}/hermes-0.1.0.tgz ${{ env.HELM_REPOSITORY }}
