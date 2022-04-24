@@ -30,4 +30,4 @@ jobs:
 
       - name: publish chart to ghcr
         run: |
-          helm push ${{ github.workspace }}/hermes-0.1.0.tgz ${{ env.HELM_REPOSITORY }}
+          helm push ${{ github.workspace }}/hermes-0.1.0.tgz oci://${{ env.HELM_REPOSITORY }}
