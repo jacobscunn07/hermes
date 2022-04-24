@@ -1,2 +1,0 @@
-# hermes
-Generic Helm Chart.
