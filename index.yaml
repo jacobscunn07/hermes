@@ -3,6 +3,16 @@ entries:
   hermes:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-08-10T01:16:15.418658795Z"
+    description: A Helm chart for Kubernetes
+    digest: 45c7f042c571e8a893b5763b559edccfbab3c46c92001ffb6d8cbb0407e36297
+    name: hermes
+    type: application
+    urls:
+    - https://github.com/jacobscunn07/hermes/releases/download/hermes-0.1.1/hermes-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-05-07T01:09:20.101018565Z"
     description: A Helm chart for Kubernetes
     digest: 7401638263efb77e311fc9d70417541b72d3aa11ca581443b579a05a43f245a0
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/jacobscunn07/hermes/releases/download/hermes-0.1.0/hermes-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-07T01:09:20.101068465Z"
+generated: "2022-08-10T01:16:15.418667296Z"
